@@ -1,0 +1,19 @@
+mult hsa 10 questions
+true or false has 10
+hazard has three
+practica has 7 and gives you 5 attemps per level
+
+rooms:
+Start room(title and buttons to do practivsl or theory test)
+Explain room(before each phase, explain what you need to do)
+(all  quation rooms look similar just mult has four answers, tf has to hazard has a text box nad a video)
+Mult room
+torf room
+hazard room
+praactical rooms(7 total)
+scoring room(shows aferr each secton is completed and gives a lettered{also non lettered} score, will also show 
+after each section has completed showing the total score in letter and non lettered, will give option to restart
+which deletes progress on both tests
+
+the question buttons will be attached to a parrent object
+therer will be four button objects each having a correesponding number for waht number answer it is
