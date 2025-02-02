@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objAB2",
+  "name": "objSettings",
   "spriteId": {
-    "name": "sprAnswerButton",
-    "path": "sprites/sprAnswerButton/sprAnswerButton.yy",
+    "name": "sprSettings",
+    "path": "sprites/sprSettings/sprSettings.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "objAnswerButton",
-    "path": "objects/objAnswerButton/objAnswerButton.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,11 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "answer",
-    "path": "folders/Buttons/answer.yy",
+    "name": "tomatoCountyDrivingTest",
+    "path": "tomatoCountyDrivingTest.yyp",
   },
 }

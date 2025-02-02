@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tomatoCountyDrivingTest",
-    "path": "tomatoCountyDrivingTest.yyp",
+    "name": "answer",
+    "path": "folders/Buttons/answer.yy",
   },
 }

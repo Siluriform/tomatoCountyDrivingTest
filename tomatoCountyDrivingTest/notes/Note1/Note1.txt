@@ -16,4 +16,7 @@ after each section has completed showing the total score in letter and non lette
 which deletes progress on both tests
 
 the question buttons will be attached to a parrent object
-therer will be four button objects each having a correesponding number for waht number answer it is
+therer will be four button objects each having a correesponding number for what number answer it is
+
+to do next:
+-create settings popup, with working settings config
