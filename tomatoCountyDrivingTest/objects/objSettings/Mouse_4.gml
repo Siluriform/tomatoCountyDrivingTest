@@ -6,7 +6,7 @@ if(mouse_over){
 	alarm_set(0,10);
 	if(!instance_exists(objSettingsPopup)){
 		//create popup and its objects
-		instance_create_depth(700,360,1,objSettingsPopup,{
+		instance_create_depth(700,360,2,objSettingsPopup,{
 			image_xscale : 3,
 			image_yscale : 3
 		});
@@ -19,10 +19,10 @@ if(mouse_over){
 		instance_create_depth(627,416,0,objChecked_fnt_Calibri,{
 			image_speed : 0
 		});
-		instance_create_layer(715,416,0,objChecked_fnt_Comic,{
+		instance_create_depth(715,416,0,objChecked_fnt_Comic,{
 			image_speed : 0
 		});
-		instance_create_layer(786,415,0,objChecked_fnt_Dubai,{
+		instance_create_depth(786,415,0,objChecked_fnt_Dubai,{
 			image_speed : 0
 		});
 	}else { //if the popup is there and settings is clicked
