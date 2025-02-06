@@ -7,3 +7,16 @@ if(mouse_over){
 }
 
 
+lay_id = layer_get_id("Background"); 
+back_id = layer_background_get_id(lay_id); 
+
+
+layer_background_speed(back_id,0); //set animation speed to 0
+if(darkmode){
+	layer_background_index(back_id, 1); 
+} else {
+	layer_background_index(back_id, 0);
+}
+
+//update font
+draw_set_font(font);

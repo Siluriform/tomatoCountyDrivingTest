@@ -1,12 +1,14 @@
 
 //macros for question amounts
-#macro totalquestions 30;
-#macro allmultandtfquestions 10;
-#macro allhazardquestions 3;
-#macro allpracticallvls 7;
+#macro tqs 30; //total questions
+#macro multfqs 10; //amount for either mult or t or f questions
+#macro hqs 3; //amount of hazard questions
+#macro pls 7; //amount of practical levels
 
 //macros just for things i dont want to repeat type
 #macro mouse_over collision_point(mouse_x, mouse_y, id, true, false) //if mouse is over this object
+#macro darkmode global.settings.isDarkMode
+#macro font global.settings.currentFont
 
 //enum used to know what phase of the game the player is currently in
 enum phase {
@@ -47,7 +49,7 @@ global.scores = {
 //settings
 global.settings = {	
 	isDarkMode : false,
-	
+	currentFont : fntArial
 }
 
 

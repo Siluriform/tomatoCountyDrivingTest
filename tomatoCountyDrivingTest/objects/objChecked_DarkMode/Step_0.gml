@@ -1,5 +1,9 @@
+
 if(darkmode){
 	image_index = 1;
-}else{
+} else {
 	image_index = 0;
 }
+
+
+
