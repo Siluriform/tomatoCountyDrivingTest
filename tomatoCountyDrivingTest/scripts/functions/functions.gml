@@ -25,6 +25,6 @@ function checkAnswer(chosenA){
 	}
 }
 
-
+//quick way to check if in practical or theory
 
 
