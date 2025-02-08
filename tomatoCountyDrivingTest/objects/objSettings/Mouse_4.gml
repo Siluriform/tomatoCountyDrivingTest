@@ -4,7 +4,7 @@ if(mouse_over){
 	image_xscale = 3;
 	image_yscale = 3;
 	alarm_set(0,10);
-	if(!instance_exists(objSettingsPopup)){
+	if(!instance_exists(objSettingsPopup) && !instance_exists(objExitPopup)){
 		//create popup and its objects
 		instance_create_depth(700,360,2,objSettingsPopup,{
 			image_xscale : 3,

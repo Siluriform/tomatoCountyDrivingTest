@@ -26,5 +26,10 @@ function checkAnswer(chosenA){
 }
 
 //quick way to check if in practical or theory
-
+function inTheMiddleOfSmth(){
+	if(global.phase = phase.MULTIPLE || global.phase = phase.TRUEORFALSE || global.phase = phase.HAZARD || global.phase = phase.PRACTICAL){
+		return true;
+	}
+	return false;
+}
 

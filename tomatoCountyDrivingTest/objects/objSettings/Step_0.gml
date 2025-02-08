@@ -12,7 +12,6 @@ if(keyboard_check_pressed(vk_tab) && instance_exists(objSettingsPopup)){
 	instance_destroy(objChecked);
 }
 
-//quit (SHOW ARE YOU SURE POPUP IF IN PRACTICAL OR THEORY
 
 
 
@@ -29,3 +28,45 @@ if(darkmode){
 
 //update font
 draw_set_font(font);
+
+
+//update phase
+switch room_get_name(room){
+	case "multRoom" :
+		global.phase = phase.MULTIPLE;
+		break;
+	
+	default : global.phase = phase.NULL;
+	
+}
+
+//quit (SHOW ARE YOU SURE POPUP IF IN PRACTICAL OR THEORY
+if(keyboard_check_pressed(vk_escape)){
+	if(inTheMiddleOfSmth()){
+		if(instance_exists(objSettingsPopup)){
+			instance_destroy(objSettingsPopup);
+			instance_destroy(objChecked);
+		}
+		if(!instance_exists(objExitPopup)){
+			instance_create_depth(672,384,1,objExitPopup,{
+				image_xscale : 3,
+				image_yscale : 3
+			});
+			instance_create_depth(549,448,0,objYesButton,{
+				image_xscale : 3,
+				image_yscale : 3
+			});
+			instance_create_depth(816,448,0,objNoButton,{
+				image_xscale : 3,
+				image_yscale : 3
+			});
+		}
+	}else{
+		game_end();
+	}
+}
+
+
+
+
+
