@@ -15,8 +15,16 @@ scoring room(shows aferr each secton is completed and gives a lettered{also non 
 after each section has completed showing the total score in letter and non lettered, will give option to restart
 which deletes progress on both tests
 
-the question buttons will be attached to a parrent object
-therer will be four button objects each having a correesponding number for what number answer it is
+the question buttons will be attached to a parent object
+there will be four button objects each having a correesponding number for what number answer it is
 
-to do next:
--create settings popup, with working settings config
+to do next(final)(add a check when done):
+-create inbetween room which will display info about the next phase and has you wait a few seconds 
+before going to its question room
+-create popup that asks if its ok to restart a section once its button is clicked and it has
+been completed already
+-create start screen and a button to start theory and another to start practical
+-create hazard room(including videos)
+-create practical levels(7)
+-create scoring room and score
+-add images to mult room that will just have no sprite image for question without images attached

@@ -35,7 +35,9 @@ switch room_get_name(room){
 	case "multRoom" :
 		global.phase = phase.MULTIPLE;
 		break;
-	
+	case "tfRoom" :
+		global.phase = phase.TRUEORFALSE;
+		break;
 	default : global.phase = phase.NULL;
 	
 }

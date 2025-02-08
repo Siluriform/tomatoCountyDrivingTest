@@ -1,9 +1,9 @@
 
 //macros for question amounts
-#macro tqs 30; //total questions
-#macro multfqs 10; //amount for either mult or t or f questions
-#macro hqs 3; //amount of hazard questions
-#macro pls 7; //amount of practical levels
+#macro tqs 30 //total questions
+#macro multfqs 10 //amount for either mult or t or f questions
+#macro hqs 3 //amount of hazard questions
+#macro pls 7 //amount of practical levels
 
 //macros just for things i dont want to repeat type
 #macro mouse_over collision_point(mouse_x, mouse_y, id, true, false) //if mouse is over this object

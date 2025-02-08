@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "tomatoCountyDrivingTest",
-    "path": "tomatoCountyDrivingTest.yyp",
+    "name": "OtherUI",
+    "path": "folders/OtherUI.yy",
   },
 }

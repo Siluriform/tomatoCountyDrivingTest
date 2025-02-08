@@ -75,7 +75,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "tomatoCountyDrivingTest",
-    "path": "tomatoCountyDrivingTest.yyp",
+    "name": "exitPopup",
+    "path": "folders/Popups/exitPopup.yy",
   },
 }
