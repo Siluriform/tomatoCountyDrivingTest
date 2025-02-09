@@ -22,11 +22,17 @@ enum phase {
 	P_END,
 	ALL_END
 }
+//enum used to know what esction its in
+enum section {
+	NULL,
+	THEORY,
+	PRACTICAL
+}
 
 //boolean that holds if a section has been completed
 global.isFinished = {
 	theory : false,
-	preactical : false
+	practical : false
 }
 //chosen answer
 global.chosenA = noone;
@@ -35,7 +41,10 @@ global.chosenA = noone;
 global.qNum = 0;
 
 //keeps track of what phase it is on
-global.phase = phase.NULL;
+global.phase = phase.START;
+
+//what section its in(if any)
+global.section = section.NULL;
 
 //keep track of scores
 global.scores = {

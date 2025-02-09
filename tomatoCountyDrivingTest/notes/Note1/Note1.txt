@@ -18,13 +18,14 @@ which deletes progress on both tests
 the question buttons will be attached to a parent object
 there will be four button objects each having a correesponding number for what number answer it is
 
-to do next(final)(add a check when done):
--create inbetween room which will display info about the next phase and has you wait a few seconds 
+to do next(final)(add a check when done✅):
+-✅create inbetween room which will display info about the next phase and has you wait a few seconds 
 before going to its question room
 -create popup that asks if its ok to restart a section once its button is clicked and it has
-been completed already
--create start screen and a button to start theory and another to start practical
--create hazard room(including videos)
+been completed already(SHOULD BE COMPLETED LAST)
+-✅create start screen and a button to start theory and another to start practical
+-finish practical button
+-create hazard room(including videos)(videos must be complete first)
 -create practical levels(7)
 -create scoring room and score
--add images to mult room that will just have no sprite image for question without images attached
+-✅add images to mult room that will just have no sprite image for question without images attached

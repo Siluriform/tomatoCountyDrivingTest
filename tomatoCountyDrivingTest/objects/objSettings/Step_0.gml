@@ -30,18 +30,6 @@ if(darkmode){
 draw_set_font(font);
 
 
-//update phase
-switch room_get_name(room){
-	case "multRoom" :
-		global.phase = phase.MULTIPLE;
-		break;
-	case "tfRoom" :
-		global.phase = phase.TRUEORFALSE;
-		break;
-	default : global.phase = phase.NULL;
-	
-}
-
 //quit (SHOW ARE YOU SURE POPUP IF IN PRACTICAL OR THEORY
 if(keyboard_check_pressed(vk_escape)){
 	if(inTheMiddleOfSmth()){

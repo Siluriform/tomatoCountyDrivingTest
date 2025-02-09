@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "next",
-    "path": "folders/Buttons/next.yy",
+    "name": "nextAnswer",
+    "path": "folders/Buttons/next/nextAnswer.yy",
   },
 }

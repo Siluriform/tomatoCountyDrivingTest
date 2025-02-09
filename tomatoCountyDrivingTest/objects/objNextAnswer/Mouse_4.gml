@@ -10,6 +10,24 @@ if(mouse_over){
 		global.qNum++;
 		global.text = "";
 		global.chosenA = noone;
+		switch global.phase {
+			case phase.MULTIPLE :
+				if(global.qNum = multfqs){
+					global.qNum =0;
+					room_goto(inBetweenRoom);
+				}
+				break;
+			case phase.TRUEORFALSE :
+				if(global.qNum = multfqs){
+					global.qNum =0;
+					room_goto(inBetweenRoom);
+				}
+				break;
+			case phase.HAZARD :
+				global.qNum =0;
+				//go to score room
+				break;
+		}
 	} else {
 		global.text = "Please Pick An Answer!";
 		

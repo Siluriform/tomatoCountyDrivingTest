@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "objNextAnswer",
   "spriteId": {
-    "name": "sprNextAnswer",
-    "path": "sprites/sprNextAnswer/sprNextAnswer.yy",
+    "name": "sprNext",
+    "path": "sprites/sprNext/sprNext.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "next",
-    "path": "folders/Buttons/next.yy",
+    "name": "nextAnswer",
+    "path": "folders/Buttons/next/nextAnswer.yy",
   },
 }

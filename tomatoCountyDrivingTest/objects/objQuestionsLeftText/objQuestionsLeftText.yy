@@ -29,7 +29,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "OtherUI",
-    "path": "folders/OtherUI.yy",
+    "name": "etc",
+    "path": "folders/OtherUI/etc.yy",
   },
 }
