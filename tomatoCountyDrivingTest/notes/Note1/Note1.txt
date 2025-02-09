@@ -25,7 +25,7 @@ before going to its question room
 been completed already(SHOULD BE COMPLETED LAST)
 -✅create start screen and a button to start theory and another to start practical
 -finish practical button
--create hazard room(including videos)(videos must be complete first)
+-✅create hazard room(including videos)(videos must be complete first)
 -create practical levels(7)
--create scoring room and score
+-✅create scoring room and score
 -✅add images to mult room that will just have no sprite image for question without images attached

@@ -10,7 +10,7 @@ if(mouse_over && canGo){
 				global.phase = phase.TRUEORFALSE;
 				break;
 			case phase.TRUEORFALSE :
-				//room_goto(hazRoom);
+				room_goto(hRoom);
 				global.phase = phase.HAZARD;
 				break;
 		}

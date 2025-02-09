@@ -24,8 +24,10 @@ if(mouse_over){
 				}
 				break;
 			case phase.HAZARD :
-				global.qNum =0;
-				//go to score room
+				if(global.qNum = hqs){
+					global.qNum =0;
+					room_goto(scoreRoom);
+				}
 				break;
 		}
 	} else {

@@ -8,7 +8,7 @@ global.tfQA = [
 	{question : "example", a1 : "first", a2 : "second", correctA : "a1 oe a2"},
 ]
 global.hQA = [
-	{question : "example", correctA : "ALL CAPS ANSWER SHOULD BE ONLY ONE WORD"},//question should be the animation
+	{question : "example", correctAs : "ALL CAPS ANSWER SHOULD BE ONLY ONE WORD"},//question should be the animation
 ]
 
 
@@ -43,7 +43,7 @@ global.tfQA = [
 
 //hazard questions
 global.hQA = [
-	{question : "", correctA : "PEDESTRIAN"},
-	{question : "", correctA : ""},
-	{question : "", correctA : ""}
+	{question : "", correctAs : ["PEDESTRIAN","PERSON","HUMAN","CIVILIAN"]},
+	{question : "", correctAs : ["POTHOLE","HOLE","POT-HOLE","FISSURE"]},
+	{question : "", correctAs : ["ICE","ICY","ICY-ROAD"]}
 ];

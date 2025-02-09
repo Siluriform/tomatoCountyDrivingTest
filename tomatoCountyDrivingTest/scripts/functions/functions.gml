@@ -17,8 +17,10 @@ function checkAnswer(chosenA){
 		}
 		break;
 		case phase.HAZARD :
-		if(string_upper(chosenA) == global.hQA[global.qNum].correctA){
-			global.scores.hScore++;
+		for(i =0; i <array_length(global.hQA[global.qNum].correctAs); i++){
+			if(string_upper(chosenA) == global.hQA[global.qNum].correctAs[i]){
+				global.scores.hScore++;
+			}
 		}
 		break;
 	

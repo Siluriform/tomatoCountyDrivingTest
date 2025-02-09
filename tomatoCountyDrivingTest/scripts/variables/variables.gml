@@ -1,6 +1,6 @@
 
 //macros for question amounts
-#macro tqs 30 //total questions
+#macro tqs 23 //total questions for theory
 #macro multfqs 10 //amount for either mult or t or f questions
 #macro hqs 3 //amount of hazard questions
 #macro pls 7 //amount of practical levels
@@ -46,9 +46,14 @@ global.phase = phase.START;
 //what section its in(if any)
 global.section = section.NULL;
 
+//if one section is failed (entire test is failed if so
+global.hasFailed = {
+	theory : false,
+	practical : false,
+}
+
 //keep track of scores
 global.scores = {
-	totalScore : 0,
 	multScore : 0,
 	tfScore : 0,
 	hScore : 0,

@@ -29,7 +29,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "start & inbetween",
-    "path": "folders/OtherUI/start & inbetween.yy",
+    "name": "start & inbetween & score",
+    "path": "folders/OtherUI/start & inbetween & score.yy",
   },
 }
