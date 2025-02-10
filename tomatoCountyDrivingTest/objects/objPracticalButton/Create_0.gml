@@ -1,4 +1,3 @@
-image_speed =0;
-
+i_index = 0;
 
 

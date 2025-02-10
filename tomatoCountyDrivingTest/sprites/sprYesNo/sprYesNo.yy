@@ -75,7 +75,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "exitPopup",
-    "path": "folders/Popups/exitPopup.yy",
+    "name": "Popups",
+    "path": "folders/Popups.yy",
   },
 }

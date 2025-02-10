@@ -17,7 +17,7 @@ if(mouse_over && canGo){
 		
 	}else if(global.section = section.PRACTICAL){//if section is practical
 		global.phase = phase.PRACTICAL;
-		//room_goto(practRoom1);
+		room_goto(practRoom1);
 	}
 	
 	
